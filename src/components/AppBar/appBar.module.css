@@ -1,0 +1,56 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 15px 40px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #2A363B;
+    box-shadow: 0px 9px 5px -4px rgb(13 68 42 / 49%);
+    background-color: #d0d5ce;
+}
+
+.item {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+
+.item.active {
+    color: #0d442a;
+    scale: 1.1;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item:hover {
+    color: #0d442a;
+    scale: 1.1;
+}
+
+.header_navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header_icon {
+    margin-right: 5px;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/phonebook.png');
+    transition: width 5s, height 5s, transform 5s;
+}
+
+.header_icon:hover {
+    rotate: 15deg;
+}

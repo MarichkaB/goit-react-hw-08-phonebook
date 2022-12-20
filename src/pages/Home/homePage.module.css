@@ -1,0 +1,26 @@
+.page_home {
+    margin: 220px auto;
+    padding: 27px;
+}
+
+.title_home {
+    text-align: center;
+
+}
+
+.title_home:hover {
+    color: #0d442a;
+}
+
+.text_home {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.text_home:hover {
+    color: #0d442a;
+}

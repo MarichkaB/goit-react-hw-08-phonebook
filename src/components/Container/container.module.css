@@ -1,0 +1,12 @@
+.container {
+    max-width: 505px;
+    height: auto;
+    margin: 40px auto;
+    padding: 35px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 0px 4px 7px #0d442a3d;
+    text-align: center;
+    /* background-color: inherit;s */
+    background: linear-gradient(90deg, #092c1b 0%, #0d442a1f 100%);
+}

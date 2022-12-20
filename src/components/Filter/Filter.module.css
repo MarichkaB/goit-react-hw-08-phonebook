@@ -1,0 +1,18 @@
+.filter_input {
+    display: block;
+    margin: 10px auto;
+    background-color: rgb(236, 230, 223);
+}
+
+.label {
+    color: antiquewhite;
+}
+
+.input_control {
+    outline: 0;
+}
+
+.input_control:focus {
+    border: none;
+    box-shadow: 0 0 0 0.3rem #173d0f59;
+}
