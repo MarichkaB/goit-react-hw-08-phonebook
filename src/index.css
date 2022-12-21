@@ -18,9 +18,7 @@ body {
 
 }
 
-/* linear-gradient(rgb(29 29 33 / 13%),
-      rgb(28 28 32 / 18%)), */
-*/ code {
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
